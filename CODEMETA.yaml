@@ -29,8 +29,8 @@ categories:
   # - build-tools
   # - hpc-workflow
 themes:
-  # - Advanced communications
-  # - Artificial intelligence
+  - Advanced communications
+  - Artificial intelligence
   # - Bioscience
   # - Buildings & Construction
   # - Chemistry
@@ -41,7 +41,7 @@ themes:
   # - Fire
   # - Forensic Science
   # - Health
-  # - Information Technology
+  - Information Technology
   # - Infrastructure
   # - Manufacturing
   # - Materials
@@ -51,7 +51,7 @@ themes:
   # - Neutron research
   # - Performance excellence
   # - Physics
-  # - Public safety
+  - Public safety
   # - Resilience
   # - Standards
   # - Transportation
