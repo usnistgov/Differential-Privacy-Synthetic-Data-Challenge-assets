@@ -6,8 +6,7 @@ This repository is maintained by [Gary Howarth](mailto:gary.howarth@nist.gov), P
 
 Tha main contents of the current repository are: 
 - data assets from 2018 Synthetic Data Challenge
-
-- opioid dataset for testing
+- drug-related deaths dataset for testing
 
 Future contents we plan to add: 
 - data assets from 2020 Temporal Map Challenge (NOV 2021)
