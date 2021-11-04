@@ -1,4 +1,4 @@
-# NIST PSCR Differential  PrivacyBenchmarks 
+# NIST PSCR Differential Privacy Benchmarks 
 
 Welcome! 
 
