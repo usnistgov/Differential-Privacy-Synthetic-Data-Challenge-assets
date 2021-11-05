@@ -1,0 +1,8 @@
+numpy
+pandas
+scipy
+requests
+typer
+loguru
+jinja2
+tqdm
