@@ -11,12 +11,16 @@ When citing the 2020 NIST PSCR Differential Privacy Temporal Map Challenge, plea
 ## Development Contest Participants
 
 [Adaptive Granularity Method by Minutemen (Sprint 3)](https://github.com/ryan112358/nist-synthetic-data-2021)\*
+POC:
 
 [DPSyn: an algorithm for synthesizing microdata for data analysis while satisfying differential privacy (Sprint 2)](https://github.com/agl-c/deid2_dpsyn)\*
+POC: 
 
 [PrivacyHistos by Jim King (Sprint 2)](https://github.com/JimKing100/PrivacyHistos)\*
+POC: 
 
 [TaxiTrip-Synthesizer by GooseDP](https://github.com/ctcovington/goosedp_sprint3_open_source)
+POC: 
 
-\* *indicates participated contestant participated in a three month development phase, working with NIST PSCR, Christine Task from Knexus Research and Maia Hansen to make their repositories extensible, more robust, better documented, and all around easier to use. 
+\* indicates participated contestant participated in a three month development phase, working with NIST PSCR, Christine Task from Knexus Research and Maia Hansen to make their repositories extensible, more robust, better documented, and all around easier to use. 
 
