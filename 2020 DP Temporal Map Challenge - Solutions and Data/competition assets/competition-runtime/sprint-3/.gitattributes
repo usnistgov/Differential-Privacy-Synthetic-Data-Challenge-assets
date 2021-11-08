@@ -1,4 +1,0 @@
-data*/*.csv filter=lfs diff=lfs merge=lfs -text
-data2020/ground_truth.csv filter=lfs diff=lfs merge=lfs -text
-public[[:space:]]data/submission_format.csv filter=lfs diff=lfs merge=lfs -text
-public[[:space:]]data/ground_truth.csv filter=lfs diff=lfs merge=lfs -text

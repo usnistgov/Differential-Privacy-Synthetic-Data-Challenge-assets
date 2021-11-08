@@ -1,0 +1,1883 @@
+{
+  "runs": [
+    {
+      "epsilon": 1.0,
+      "delta": 1.2244024187236405e-11,
+      "max_records_per_individual": 20
+    },
+    {
+      "epsilon": 2.0,
+      "delta": 1.2244024187236405e-11,
+      "max_records_per_individual": 20
+    },
+    {
+      "epsilon": 10.0,
+      "delta": 1.2244024187236405e-11,
+      "max_records_per_individual": 20
+    }
+  ],
+  "schema": {
+    "periods": [
+      {
+        "year": 2019,
+        "month": 1
+      },
+      {
+        "year": 2019,
+        "month": 2
+      },
+      {
+        "year": 2019,
+        "month": 3
+      },
+      {
+        "year": 2019,
+        "month": 4
+      },
+      {
+        "year": 2019,
+        "month": 5
+      },
+      {
+        "year": 2019,
+        "month": 6
+      },
+      {
+        "year": 2019,
+        "month": 7
+      },
+      {
+        "year": 2019,
+        "month": 8
+      },
+      {
+        "year": 2019,
+        "month": 9
+      },
+      {
+        "year": 2019,
+        "month": 10
+      },
+      {
+        "year": 2019,
+        "month": 11
+      },
+      {
+        "year": 2019,
+        "month": 12
+      }
+    ],
+    "neighborhood": [
+      {
+        "name": "Abell",
+        "code": 0
+      },
+      {
+        "name": "Allendale",
+        "code": 1
+      },
+      {
+        "name": "Arcadia",
+        "code": 2
+      },
+      {
+        "name": "Arlington",
+        "code": 3
+      },
+      {
+        "name": "Armistead Gardens",
+        "code": 4
+      },
+      {
+        "name": "Ashburton",
+        "code": 5
+      },
+      {
+        "name": "Baltimore Highlands",
+        "code": 6
+      },
+      {
+        "name": "Barclay",
+        "code": 7
+      },
+      {
+        "name": "Barre Circle",
+        "code": 8
+      },
+      {
+        "name": "Bayview",
+        "code": 9
+      },
+      {
+        "name": "Beechfield",
+        "code": 10
+      },
+      {
+        "name": "Belair-Edison",
+        "code": 11
+      },
+      {
+        "name": "Belair-Parkside",
+        "code": 12
+      },
+      {
+        "name": "Bellona-Gittings",
+        "code": 13
+      },
+      {
+        "name": "Belvedere",
+        "code": 14
+      },
+      {
+        "name": "Berea",
+        "code": 15
+      },
+      {
+        "name": "Better Waverly",
+        "code": 16
+      },
+      {
+        "name": "Beverly Hills",
+        "code": 17
+      },
+      {
+        "name": "Biddle Street",
+        "code": 18
+      },
+      {
+        "name": "Blythewood",
+        "code": 19
+      },
+      {
+        "name": "Bolton Hill",
+        "code": 20
+      },
+      {
+        "name": "Boyd-Booth",
+        "code": 21
+      },
+      {
+        "name": "Brewers Hill",
+        "code": 22
+      },
+      {
+        "name": "Bridgeview/Greenlawn",
+        "code": 23
+      },
+      {
+        "name": "Broadway East",
+        "code": 24
+      },
+      {
+        "name": "Broening Manor",
+        "code": 25
+      },
+      {
+        "name": "Brooklyn",
+        "code": 26
+      },
+      {
+        "name": "Burleith-Leighton",
+        "code": 27
+      },
+      {
+        "name": "Butcher's Hill",
+        "code": 28
+      },
+      {
+        "name": "CARE",
+        "code": 29
+      },
+      {
+        "name": "Callaway-Garrison",
+        "code": 30
+      },
+      {
+        "name": "Cameron Village",
+        "code": 31
+      },
+      {
+        "name": "Canton",
+        "code": 32
+      },
+      {
+        "name": "Canton Industrial Area",
+        "code": 33
+      },
+      {
+        "name": "Carroll - Camden Industrial Area",
+        "code": 34
+      },
+      {
+        "name": "Carroll Park",
+        "code": 35
+      },
+      {
+        "name": "Carroll-South Hilton",
+        "code": 36
+      },
+      {
+        "name": "Carrollton Ridge",
+        "code": 37
+      },
+      {
+        "name": "Cedarcroft",
+        "code": 38
+      },
+      {
+        "name": "Cedmont",
+        "code": 39
+      },
+      {
+        "name": "Cedonia",
+        "code": 40
+      },
+      {
+        "name": "Central Forest Park",
+        "code": 41
+      },
+      {
+        "name": "Central Park Heights",
+        "code": 42
+      },
+      {
+        "name": "Charles North",
+        "code": 43
+      },
+      {
+        "name": "Charles Village",
+        "code": 44
+      },
+      {
+        "name": "Cherry Hill",
+        "code": 45
+      },
+      {
+        "name": "Cheswolde",
+        "code": 46
+      },
+      {
+        "name": "Chinquapin Park",
+        "code": 47
+      },
+      {
+        "name": "Clifton Park",
+        "code": 48
+      },
+      {
+        "name": "Coldspring",
+        "code": 49
+      },
+      {
+        "name": "Coldstream Homestead Montebello",
+        "code": 50
+      },
+      {
+        "name": "Concerned Citizens Of Forest Park",
+        "code": 51
+      },
+      {
+        "name": "Coppin Heights/Ash-Co-East",
+        "code": 52
+      },
+      {
+        "name": "Cross Country",
+        "code": 53
+      },
+      {
+        "name": "Cross Keys",
+        "code": 54
+      },
+      {
+        "name": "Curtis Bay",
+        "code": 55
+      },
+      {
+        "name": "Curtis Bay Industrial Area",
+        "code": 56
+      },
+      {
+        "name": "Cylburn",
+        "code": 57
+      },
+      {
+        "name": "Darley Park",
+        "code": 58
+      },
+      {
+        "name": "Dickeyville",
+        "code": 59
+      },
+      {
+        "name": "Dolfield",
+        "code": 60
+      },
+      {
+        "name": "Dorchester",
+        "code": 61
+      },
+      {
+        "name": "Downtown",
+        "code": 62
+      },
+      {
+        "name": "Downtown West",
+        "code": 63
+      },
+      {
+        "name": "Druid Heights",
+        "code": 64
+      },
+      {
+        "name": "Druid Hill Park",
+        "code": 65
+      },
+      {
+        "name": "Dunbar-Broadway",
+        "code": 66
+      },
+      {
+        "name": "Dundalk Marine Terminal",
+        "code": 67
+      },
+      {
+        "name": "East Arlington",
+        "code": 68
+      },
+      {
+        "name": "East Baltimore Midway",
+        "code": 69
+      },
+      {
+        "name": "Easterwood",
+        "code": 70
+      },
+      {
+        "name": "Eastwood",
+        "code": 71
+      },
+      {
+        "name": "Edgewood",
+        "code": 72
+      },
+      {
+        "name": "Edmondson Village",
+        "code": 73
+      },
+      {
+        "name": "Ednor Gardens-Lakeside",
+        "code": 74
+      },
+      {
+        "name": "Ellwood Park/Monument",
+        "code": 75
+      },
+      {
+        "name": "Evergreen",
+        "code": 76
+      },
+      {
+        "name": "Evergreen Lawn",
+        "code": 77
+      },
+      {
+        "name": "Evesham Park",
+        "code": 78
+      },
+      {
+        "name": "Fairfield Area",
+        "code": 79
+      },
+      {
+        "name": "Fairmont",
+        "code": 80
+      },
+      {
+        "name": "Fallstaff",
+        "code": 81
+      },
+      {
+        "name": "Federal Hill",
+        "code": 82
+      },
+      {
+        "name": "Fells Point",
+        "code": 83
+      },
+      {
+        "name": "Forest Park",
+        "code": 84
+      },
+      {
+        "name": "Forest Park Golf Course",
+        "code": 85
+      },
+      {
+        "name": "Four By Four",
+        "code": 86
+      },
+      {
+        "name": "Frankford",
+        "code": 87
+      },
+      {
+        "name": "Franklin Square",
+        "code": 88
+      },
+      {
+        "name": "Franklintown",
+        "code": 89
+      },
+      {
+        "name": "Franklintown Road",
+        "code": 90
+      },
+      {
+        "name": "Garwyn Oaks",
+        "code": 91
+      },
+      {
+        "name": "Gay Street",
+        "code": 92
+      },
+      {
+        "name": "Glen",
+        "code": 93
+      },
+      {
+        "name": "Glen Oaks",
+        "code": 94
+      },
+      {
+        "name": "Glenham-Belhar",
+        "code": 95
+      },
+      {
+        "name": "Graceland Park",
+        "code": 96
+      },
+      {
+        "name": "Greektown",
+        "code": 97
+      },
+      {
+        "name": "Greenmount Cemetery",
+        "code": 98
+      },
+      {
+        "name": "Greenmount West",
+        "code": 99
+      },
+      {
+        "name": "Greenspring",
+        "code": 100
+      },
+      {
+        "name": "Grove Park",
+        "code": 101
+      },
+      {
+        "name": "Guilford",
+        "code": 102
+      },
+      {
+        "name": "Gwynns Falls",
+        "code": 103
+      },
+      {
+        "name": "Gwynns Falls/Leakin Park",
+        "code": 104
+      },
+      {
+        "name": "Hamilton Hills",
+        "code": 105
+      },
+      {
+        "name": "Hampden",
+        "code": 106
+      },
+      {
+        "name": "Hanlon-Longwood",
+        "code": 107
+      },
+      {
+        "name": "Harlem Park",
+        "code": 108
+      },
+      {
+        "name": "Harwood",
+        "code": 109
+      },
+      {
+        "name": "Hawkins Point",
+        "code": 110
+      },
+      {
+        "name": "Heritage Crossing",
+        "code": 111
+      },
+      {
+        "name": "Herring Run Park",
+        "code": 112
+      },
+      {
+        "name": "Highlandtown",
+        "code": 113
+      },
+      {
+        "name": "Hillen",
+        "code": 114
+      },
+      {
+        "name": "Hoes Heights",
+        "code": 115
+      },
+      {
+        "name": "Holabird Industrial Park",
+        "code": 116
+      },
+      {
+        "name": "Hollins Market",
+        "code": 117
+      },
+      {
+        "name": "Homeland",
+        "code": 118
+      },
+      {
+        "name": "Hopkins Bayview",
+        "code": 119
+      },
+      {
+        "name": "Howard Park",
+        "code": 120
+      },
+      {
+        "name": "Hunting Ridge",
+        "code": 121
+      },
+      {
+        "name": "Idlewood",
+        "code": 122
+      },
+      {
+        "name": "Inner Harbor",
+        "code": 123
+      },
+      {
+        "name": "Irvington",
+        "code": 124
+      },
+      {
+        "name": "Johns Hopkins Homewood",
+        "code": 125
+      },
+      {
+        "name": "Johnston Square",
+        "code": 126
+      },
+      {
+        "name": "Jones Falls Area",
+        "code": 127
+      },
+      {
+        "name": "Jonestown",
+        "code": 128
+      },
+      {
+        "name": "Kenilworth Park",
+        "code": 129
+      },
+      {
+        "name": "Kernewood",
+        "code": 130
+      },
+      {
+        "name": "Keswick",
+        "code": 131
+      },
+      {
+        "name": "Kresson",
+        "code": 132
+      },
+      {
+        "name": "Lake Evesham",
+        "code": 133
+      },
+      {
+        "name": "Lake Walker",
+        "code": 134
+      },
+      {
+        "name": "Lakeland",
+        "code": 135
+      },
+      {
+        "name": "Langston Hughes",
+        "code": 136
+      },
+      {
+        "name": "Lauraville",
+        "code": 137
+      },
+      {
+        "name": "Levindale",
+        "code": 138
+      },
+      {
+        "name": "Liberty Square",
+        "code": 139
+      },
+      {
+        "name": "Little Italy",
+        "code": 140
+      },
+      {
+        "name": "Loch Raven",
+        "code": 141
+      },
+      {
+        "name": "Locust Point",
+        "code": 142
+      },
+      {
+        "name": "Locust Point Industrial Area",
+        "code": 143
+      },
+      {
+        "name": "Lower Edmondson Village",
+        "code": 144
+      },
+      {
+        "name": "Lower Herring Run Park",
+        "code": 145
+      },
+      {
+        "name": "Loyola/Notre Dame",
+        "code": 146
+      },
+      {
+        "name": "Lucille Park",
+        "code": 147
+      },
+      {
+        "name": "Madison Park",
+        "code": 148
+      },
+      {
+        "name": "Madison-Eastend",
+        "code": 149
+      },
+      {
+        "name": "Mayfield",
+        "code": 150
+      },
+      {
+        "name": "McElderry Park",
+        "code": 151
+      },
+      {
+        "name": "Medfield",
+        "code": 152
+      },
+      {
+        "name": "Medford",
+        "code": 153
+      },
+      {
+        "name": "Mid-Govans",
+        "code": 154
+      },
+      {
+        "name": "Mid-Town Belvedere",
+        "code": 155
+      },
+      {
+        "name": "Middle Branch/Reedbird Parks",
+        "code": 156
+      },
+      {
+        "name": "Middle East",
+        "code": 157
+      },
+      {
+        "name": "Midtown-Edmondson",
+        "code": 158
+      },
+      {
+        "name": "Millhill",
+        "code": 159
+      },
+      {
+        "name": "Milton-Montford",
+        "code": 160
+      },
+      {
+        "name": "Mondawmin",
+        "code": 161
+      },
+      {
+        "name": "Montebello",
+        "code": 162
+      },
+      {
+        "name": "Moravia-Walther",
+        "code": 163
+      },
+      {
+        "name": "Morgan Park",
+        "code": 164
+      },
+      {
+        "name": "Morgan State University",
+        "code": 165
+      },
+      {
+        "name": "Morrell Park",
+        "code": 166
+      },
+      {
+        "name": "Mosher",
+        "code": 167
+      },
+      {
+        "name": "Mount Holly",
+        "code": 168
+      },
+      {
+        "name": "Mount Vernon",
+        "code": 169
+      },
+      {
+        "name": "Mount Washington",
+        "code": 170
+      },
+      {
+        "name": "Mount Winans",
+        "code": 171
+      },
+      {
+        "name": "Mt Pleasant Park",
+        "code": 172
+      },
+      {
+        "name": "New Northwood",
+        "code": 173
+      },
+      {
+        "name": "New Southwest/Mount Clare",
+        "code": 174
+      },
+      {
+        "name": "North Harford Road",
+        "code": 175
+      },
+      {
+        "name": "North Roland Park/Poplar Hill",
+        "code": 176
+      },
+      {
+        "name": "Northwest Community Action",
+        "code": 177
+      },
+      {
+        "name": "O'Donnell Heights",
+        "code": 178
+      },
+      {
+        "name": "Oakenshawe",
+        "code": 179
+      },
+      {
+        "name": "Oaklee",
+        "code": 180
+      },
+      {
+        "name": "Old Goucher",
+        "code": 181
+      },
+      {
+        "name": "Oldtown",
+        "code": 182
+      },
+      {
+        "name": "Oliver",
+        "code": 183
+      },
+      {
+        "name": "Orangeville",
+        "code": 184
+      },
+      {
+        "name": "Orangeville Industrial Area",
+        "code": 185
+      },
+      {
+        "name": "Orchard Ridge",
+        "code": 186
+      },
+      {
+        "name": "Original Northwood",
+        "code": 187
+      },
+      {
+        "name": "Otterbein",
+        "code": 188
+      },
+      {
+        "name": "Overlea",
+        "code": 189
+      },
+      {
+        "name": "Panway/Braddish Avenue",
+        "code": 190
+      },
+      {
+        "name": "Park Circle",
+        "code": 191
+      },
+      {
+        "name": "Parklane",
+        "code": 192
+      },
+      {
+        "name": "Parkside",
+        "code": 193
+      },
+      {
+        "name": "Parkview/Woodbrook",
+        "code": 194
+      },
+      {
+        "name": "Patterson Park",
+        "code": 195
+      },
+      {
+        "name": "Patterson Park Neighborhood",
+        "code": 196
+      },
+      {
+        "name": "Patterson Place",
+        "code": 197
+      },
+      {
+        "name": "Pen Lucy",
+        "code": 198
+      },
+      {
+        "name": "Penn North",
+        "code": 199
+      },
+      {
+        "name": "Penn-Fallsway",
+        "code": 200
+      },
+      {
+        "name": "Penrose/Fayette Street Outreach",
+        "code": 201
+      },
+      {
+        "name": "Perkins Homes",
+        "code": 202
+      },
+      {
+        "name": "Perring Loch",
+        "code": 203
+      },
+      {
+        "name": "Pimlico Good Neighbors",
+        "code": 204
+      },
+      {
+        "name": "Pleasant View Gardens",
+        "code": 205
+      },
+      {
+        "name": "Poppleton",
+        "code": 206
+      },
+      {
+        "name": "Port Covington",
+        "code": 207
+      },
+      {
+        "name": "Pulaski Industrial Area",
+        "code": 208
+      },
+      {
+        "name": "Purnell",
+        "code": 209
+      },
+      {
+        "name": "Radnor-Winston",
+        "code": 210
+      },
+      {
+        "name": "Ramblewood",
+        "code": 211
+      },
+      {
+        "name": "Reisterstown Station",
+        "code": 212
+      },
+      {
+        "name": "Remington",
+        "code": 213
+      },
+      {
+        "name": "Reservoir Hill",
+        "code": 214
+      },
+      {
+        "name": "Richnor Springs",
+        "code": 215
+      },
+      {
+        "name": "Ridgely's Delight",
+        "code": 216
+      },
+      {
+        "name": "Riverside",
+        "code": 217
+      },
+      {
+        "name": "Rognel Heights",
+        "code": 218
+      },
+      {
+        "name": "Roland Park",
+        "code": 219
+      },
+      {
+        "name": "Rosebank",
+        "code": 220
+      },
+      {
+        "name": "Rosemont",
+        "code": 221
+      },
+      {
+        "name": "Rosemont East",
+        "code": 222
+      },
+      {
+        "name": "Rosemont Homeowners/Tenants",
+        "code": 223
+      },
+      {
+        "name": "Sabina-Mattfeldt",
+        "code": 224
+      },
+      {
+        "name": "Saint Agnes",
+        "code": 225
+      },
+      {
+        "name": "Saint Helena",
+        "code": 226
+      },
+      {
+        "name": "Saint Josephs",
+        "code": 227
+      },
+      {
+        "name": "Saint Paul",
+        "code": 228
+      },
+      {
+        "name": "Sandtown-Winchester",
+        "code": 229
+      },
+      {
+        "name": "Seton Business Park",
+        "code": 230
+      },
+      {
+        "name": "Seton Hill",
+        "code": 231
+      },
+      {
+        "name": "Sharp-Leadenhall",
+        "code": 232
+      },
+      {
+        "name": "Shipley Hill",
+        "code": 233
+      },
+      {
+        "name": "South Baltimore",
+        "code": 234
+      },
+      {
+        "name": "South Clifton Park",
+        "code": 235
+      },
+      {
+        "name": "Spring Garden Industrial Area",
+        "code": 236
+      },
+      {
+        "name": "Stadium Area",
+        "code": 237
+      },
+      {
+        "name": "Stonewood-Pentwood-Winston",
+        "code": 238
+      },
+      {
+        "name": "Taylor Heights",
+        "code": 239
+      },
+      {
+        "name": "Ten Hills",
+        "code": 240
+      },
+      {
+        "name": "The Orchards",
+        "code": 241
+      },
+      {
+        "name": "Towanda-Grantley",
+        "code": 242
+      },
+      {
+        "name": "Tremont",
+        "code": 243
+      },
+      {
+        "name": "Tuscany-Canterbury",
+        "code": 244
+      },
+      {
+        "name": "Union Square",
+        "code": 245
+      },
+      {
+        "name": "University Of Maryland",
+        "code": 246
+      },
+      {
+        "name": "Uplands",
+        "code": 247
+      },
+      {
+        "name": "Upper Fells Point",
+        "code": 248
+      },
+      {
+        "name": "Upton",
+        "code": 249
+      },
+      {
+        "name": "Villages Of Homeland",
+        "code": 250
+      },
+      {
+        "name": "Violetville",
+        "code": 251
+      },
+      {
+        "name": "Wakefield",
+        "code": 252
+      },
+      {
+        "name": "Walbrook",
+        "code": 253
+      },
+      {
+        "name": "Waltherson",
+        "code": 254
+      },
+      {
+        "name": "Washington Hill",
+        "code": 255
+      },
+      {
+        "name": "Washington Village/Pigtown",
+        "code": 256
+      },
+      {
+        "name": "Waverly",
+        "code": 257
+      },
+      {
+        "name": "West Arlington",
+        "code": 258
+      },
+      {
+        "name": "West Forest Park",
+        "code": 259
+      },
+      {
+        "name": "West Hills",
+        "code": 260
+      },
+      {
+        "name": "Westfield",
+        "code": 261
+      },
+      {
+        "name": "Westgate",
+        "code": 262
+      },
+      {
+        "name": "Westport",
+        "code": 263
+      },
+      {
+        "name": "Wilhelm Park",
+        "code": 264
+      },
+      {
+        "name": "Wilson Park",
+        "code": 265
+      },
+      {
+        "name": "Winchester",
+        "code": 266
+      },
+      {
+        "name": "Windsor Hills",
+        "code": 267
+      },
+      {
+        "name": "Winston-Govans",
+        "code": 268
+      },
+      {
+        "name": "Woodberry",
+        "code": 269
+      },
+      {
+        "name": "Woodbourne Heights",
+        "code": 270
+      },
+      {
+        "name": "Woodbourne-McCabe",
+        "code": 271
+      },
+      {
+        "name": "Woodmere",
+        "code": 272
+      },
+      {
+        "name": "Wrenlane",
+        "code": 273
+      },
+      {
+        "name": "Wyman Park",
+        "code": 274
+      },
+      {
+        "name": "Wyndhurst",
+        "code": 275
+      },
+      {
+        "name": "Yale Heights",
+        "code": 276
+      },
+      {
+        "name": "York-Homeland",
+        "code": 277
+      }
+    ],
+    "incident_type": [
+      {
+        "name": "30",
+        "code": 0
+      },
+      {
+        "name": "4E",
+        "code": 1
+      },
+      {
+        "name": "56",
+        "code": 2
+      },
+      {
+        "name": "5G",
+        "code": 3
+      },
+      {
+        "name": "65",
+        "code": 4
+      },
+      {
+        "name": "6D",
+        "code": 5
+      },
+      {
+        "name": "6J",
+        "code": 6
+      },
+      {
+        "name": "75",
+        "code": 7
+      },
+      {
+        "name": "7C",
+        "code": 8
+      },
+      {
+        "name": "911 No Voice",
+        "code": 9
+      },
+      {
+        "name": "99",
+        "code": 10
+      },
+      {
+        "name": "AED",
+        "code": 11
+      },
+      {
+        "name": "AWOL",
+        "code": 12
+      },
+      {
+        "name": "Abduction",
+        "code": 13
+      },
+      {
+        "name": "Animal Cruelty",
+        "code": 14
+      },
+      {
+        "name": "Animal Disturbance",
+        "code": 15
+      },
+      {
+        "name": "Armed Person",
+        "code": 16
+      },
+      {
+        "name": "Assault",
+        "code": 17
+      },
+      {
+        "name": "Assist",
+        "code": 18
+      },
+      {
+        "name": "Assist Citizen",
+        "code": 19
+      },
+      {
+        "name": "Assist Fire Department",
+        "code": 20
+      },
+      {
+        "name": "Assist MTA",
+        "code": 21
+      },
+      {
+        "name": "Assist Officer",
+        "code": 22
+      },
+      {
+        "name": "Attempt to Locate",
+        "code": 23
+      },
+      {
+        "name": "Attempted",
+        "code": 24
+      },
+      {
+        "name": "Audible Alarm",
+        "code": 25
+      },
+      {
+        "name": "Auto Accident",
+        "code": 26
+      },
+      {
+        "name": "Auto Accident Injured Pedestrian",
+        "code": 27
+      },
+      {
+        "name": "Auto Accident Injury",
+        "code": 28
+      },
+      {
+        "name": "Auto Theft",
+        "code": 29
+      },
+      {
+        "name": "Bail",
+        "code": 30
+      },
+      {
+        "name": "Bank Checkup",
+        "code": 31
+      },
+      {
+        "name": "Behavioral Crisis",
+        "code": 32
+      },
+      {
+        "name": "Bike Theft",
+        "code": 33
+      },
+      {
+        "name": "Body Attachment",
+        "code": 34
+      },
+      {
+        "name": "Burglary",
+        "code": 35
+      },
+      {
+        "name": "Business Check",
+        "code": 36
+      },
+      {
+        "name": "Changed Mind",
+        "code": 37
+      },
+      {
+        "name": "Check Location",
+        "code": 38
+      },
+      {
+        "name": "Child on Phone",
+        "code": 39
+      },
+      {
+        "name": "Closed Call",
+        "code": 40
+      },
+      {
+        "name": "Collapsed Building",
+        "code": 41
+      },
+      {
+        "name": "Common Assault",
+        "code": 42
+      },
+      {
+        "name": "Community Engagement",
+        "code": 43
+      },
+      {
+        "name": "Court",
+        "code": 44
+      },
+      {
+        "name": "Curfew",
+        "code": 45
+      },
+      {
+        "name": "Custody",
+        "code": 46
+      },
+      {
+        "name": "Cutting",
+        "code": 47
+      },
+      {
+        "name": "Death",
+        "code": 48
+      },
+      {
+        "name": "Department Accident",
+        "code": 49
+      },
+      {
+        "name": "Destruction of Property",
+        "code": 50
+      },
+      {
+        "name": "Disabled Vehicle",
+        "code": 51
+      },
+      {
+        "name": "Discharge Firearm",
+        "code": 52
+      },
+      {
+        "name": "Disorderly",
+        "code": 53
+      },
+      {
+        "name": "Dispute",
+        "code": 54
+      },
+      {
+        "name": "Dog Bite",
+        "code": 55
+      },
+      {
+        "name": "Driving Intoxicated",
+        "code": 56
+      },
+      {
+        "name": "Elopement",
+        "code": 57
+      },
+      {
+        "name": "Emergency Petition",
+        "code": 58
+      },
+      {
+        "name": "Exparte Order",
+        "code": 59
+      },
+      {
+        "name": "False Pretense",
+        "code": 60
+      },
+      {
+        "name": "Family Disturbance",
+        "code": 61
+      },
+      {
+        "name": "Field Interview",
+        "code": 62
+      },
+      {
+        "name": "Fire",
+        "code": 63
+      },
+      {
+        "name": "Follow Up",
+        "code": 64
+      },
+      {
+        "name": "Foot Patrol",
+        "code": 65
+      },
+      {
+        "name": "Forced Entry",
+        "code": 66
+      },
+      {
+        "name": "Gambling",
+        "code": 67
+      },
+      {
+        "name": "Get Belongings",
+        "code": 68
+      },
+      {
+        "name": "Handgun Violation",
+        "code": 69
+      },
+      {
+        "name": "Hangup",
+        "code": 70
+      },
+      {
+        "name": "Harassment",
+        "code": 71
+      },
+      {
+        "name": "Hit and Run",
+        "code": 72
+      },
+      {
+        "name": "Holdup",
+        "code": 73
+      },
+      {
+        "name": "Hot Spot Check",
+        "code": 74
+      },
+      {
+        "name": "Illegal Dumping",
+        "code": 75
+      },
+      {
+        "name": "Immediate Incarceration",
+        "code": 76
+      },
+      {
+        "name": "Injured Person",
+        "code": 77
+      },
+      {
+        "name": "Intoxicated Person",
+        "code": 78
+      },
+      {
+        "name": "Investigate Auto",
+        "code": 79
+      },
+      {
+        "name": "Investigate Problem",
+        "code": 80
+      },
+      {
+        "name": "Involuntary Detention",
+        "code": 81
+      },
+      {
+        "name": "Juvenile Disturbance",
+        "code": 82
+      },
+      {
+        "name": "Lab Request",
+        "code": 83
+      },
+      {
+        "name": "Larceny",
+        "code": 84
+      },
+      {
+        "name": "Lewd Act",
+        "code": 85
+      },
+      {
+        "name": "Locate",
+        "code": 86
+      },
+      {
+        "name": "Locked Out",
+        "code": 87
+      },
+      {
+        "name": "Loitering",
+        "code": 88
+      },
+      {
+        "name": "Lost Child",
+        "code": 89
+      },
+      {
+        "name": "Lost Property",
+        "code": 90
+      },
+      {
+        "name": "Loud Music",
+        "code": 91
+      },
+      {
+        "name": "Loud Noise",
+        "code": 92
+      },
+      {
+        "name": "Lying In The Street",
+        "code": 93
+      },
+      {
+        "name": "Missing Person",
+        "code": 94
+      },
+      {
+        "name": "Mistake",
+        "code": 95
+      },
+      {
+        "name": "Narcotics",
+        "code": 96
+      },
+      {
+        "name": "No Parking",
+        "code": 97
+      },
+      {
+        "name": "Noise Complaint",
+        "code": 98
+      },
+      {
+        "name": "Non-Breathing",
+        "code": 99
+      },
+      {
+        "name": "Notify",
+        "code": 100
+      },
+      {
+        "name": "Open Door",
+        "code": 101
+      },
+      {
+        "name": "Open Line",
+        "code": 102
+      },
+      {
+        "name": "Other",
+        "code": 103
+      },
+      {
+        "name": "Overdose",
+        "code": 104
+      },
+      {
+        "name": "Panhandler",
+        "code": 105
+      },
+      {
+        "name": "Parking Complaint",
+        "code": 106
+      },
+      {
+        "name": "Peace Order",
+        "code": 107
+      },
+      {
+        "name": "Personal Relief",
+        "code": 108
+      },
+      {
+        "name": "Pick Up Order",
+        "code": 109
+      },
+      {
+        "name": "Police Escort",
+        "code": 110
+      },
+      {
+        "name": "Police Information",
+        "code": 111
+      },
+      {
+        "name": "Possible",
+        "code": 112
+      },
+      {
+        "name": "Private Tow",
+        "code": 113
+      },
+      {
+        "name": "Prostitution",
+        "code": 114
+      },
+      {
+        "name": "Protective Order",
+        "code": 115
+      },
+      {
+        "name": "Prowler",
+        "code": 116
+      },
+      {
+        "name": "RA Police",
+        "code": 117
+      },
+      {
+        "name": "Reckless Driver",
+        "code": 118
+      },
+      {
+        "name": "Recovered Property",
+        "code": 119
+      },
+      {
+        "name": "Reovered Vehicle",
+        "code": 120
+      },
+      {
+        "name": "Repairs Service",
+        "code": 121
+      },
+      {
+        "name": "Repossession",
+        "code": 122
+      },
+      {
+        "name": "Request Services",
+        "code": 123
+      },
+      {
+        "name": "Requires Police Officer",
+        "code": 124
+      },
+      {
+        "name": "Robbery: Armed",
+        "code": 125
+      },
+      {
+        "name": "Robbery: Unarmed",
+        "code": 126
+      },
+      {
+        "name": "Runaway",
+        "code": 127
+      },
+      {
+        "name": "Sanitation",
+        "code": 128
+      },
+      {
+        "name": "School Church",
+        "code": 129
+      },
+      {
+        "name": "Search and Seizure",
+        "code": 130
+      },
+      {
+        "name": "See Text",
+        "code": 131
+      },
+      {
+        "name": "Shooting",
+        "code": 132
+      },
+      {
+        "name": "Shotspot Alert",
+        "code": 133
+      },
+      {
+        "name": "Sick Case",
+        "code": 134
+      },
+      {
+        "name": "Silent Alarm",
+        "code": 135
+      },
+      {
+        "name": "Snatched Purse",
+        "code": 136
+      },
+      {
+        "name": "Squeegee Disturbance",
+        "code": 137
+      },
+      {
+        "name": "Street Disturbance",
+        "code": 138
+      },
+      {
+        "name": "Street Obstruction",
+        "code": 139
+      },
+      {
+        "name": "Subject Stop",
+        "code": 140
+      },
+      {
+        "name": "Supervisor Complaint",
+        "code": 141
+      },
+      {
+        "name": "Suspicious Person",
+        "code": 142
+      },
+      {
+        "name": "Suspicious Vehicle",
+        "code": 143
+      },
+      {
+        "name": "Tactical Alert",
+        "code": 144
+      },
+      {
+        "name": "Threat",
+        "code": 145
+      },
+      {
+        "name": "Tow Do Not Use",
+        "code": 146
+      },
+      {
+        "name": "Traffic Control Signal",
+        "code": 147
+      },
+      {
+        "name": "Traffic Stop",
+        "code": 148
+      },
+      {
+        "name": "Transport",
+        "code": 149
+      },
+      {
+        "name": "Tresspassing",
+        "code": 150
+      },
+      {
+        "name": "Trust",
+        "code": 151
+      },
+      {
+        "name": "Unauthorized Use",
+        "code": 152
+      },
+      {
+        "name": "Unfounded",
+        "code": 153
+      },
+      {
+        "name": "Unknown Trouble",
+        "code": 154
+      },
+      {
+        "name": "Vehicle Disturbance",
+        "code": 155
+      },
+      {
+        "name": "Wagon Run",
+        "code": 156
+      },
+      {
+        "name": "Warrant",
+        "code": 157
+      },
+      {
+        "name": "Water Rescue",
+        "code": 158
+      },
+      {
+        "name": "Well Being Check",
+        "code": 159
+      },
+      {
+        "name": "CrimeReport_AGG. ASSAULT",
+        "code": 160
+      },
+      {
+        "name": "CrimeReport_ARSON",
+        "code": 161
+      },
+      {
+        "name": "CrimeReport_AUTO THEFT",
+        "code": 162
+      },
+      {
+        "name": "CrimeReport_BURGLARY",
+        "code": 163
+      },
+      {
+        "name": "CrimeReport_COMMON ASSAULT",
+        "code": 164
+      },
+      {
+        "name": "CrimeReport_HOMICIDE",
+        "code": 165
+      },
+      {
+        "name": "CrimeReport_LARCENY",
+        "code": 166
+      },
+      {
+        "name": "CrimeReport_LARCENY FROM AUTO",
+        "code": 167
+      },
+      {
+        "name": "CrimeReport_RAPE",
+        "code": 168
+      },
+      {
+        "name": "CrimeReport_ROBBERY - CARJACKING",
+        "code": 169
+      },
+      {
+        "name": "CrimeReport_ROBBERY - COMMERCIAL",
+        "code": 170
+      },
+      {
+        "name": "CrimeReport_ROBBERY - RESIDENCE",
+        "code": 171
+      },
+      {
+        "name": "CrimeReport_ROBBERY - STREET",
+        "code": 172
+      },
+      {
+        "name": "CrimeReport_SHOOTING",
+        "code": 173
+      }
+    ]
+  }
+}
