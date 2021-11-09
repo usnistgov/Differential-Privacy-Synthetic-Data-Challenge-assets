@@ -1,3 +1,0 @@
-data/ground_truth.csv filter=lfs diff=lfs merge=lfs -text
-data2016/incidents.csv filter=lfs diff=lfs merge=lfs -text
-data2018/incidents.csv filter=lfs diff=lfs merge=lfs -text
